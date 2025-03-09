@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz: Seu Futuro em 40 Anos</title>
+    <link rel="stylesheet" href="quiz_futuro.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Quiz: Como Você Se Vê Daqui a 40 Anos?</h1>
+      <form id="quiz-form">
+        <div class="question">
+          <p>1. Qual seu principal objetivo de vida?</p>
+          <label
+            ><input type="radio" name="q1" value="carreira" /> Carreira de
+            sucesso</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="familia" /> Família
+            feliz</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="riqueza" /> Riqueza e
+            liberdade financeira</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="impacto" /> Impacto
+            social</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>2. Onde você gostaria de estar morando?</p>
+          <label
+            ><input type="radio" name="q2" value="cidade" /> Grande
+            cidade</label
+          ><br />
+          <label
+            ><input type="radio" name="q2" value="campo" /> Campo ou
+            interior</label
+          ><br />
+          <label
+            ><input type="radio" name="q2" value="exterior" /> Exterior</label
+          ><br />
+          <label><input type="radio" name="q2" value="praia" /> Praia</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>3. Qual seu nível de atividade física?</p>
+          <label><input type="radio" name="q3" value="alta" /> Alta</label
+          ><br />
+          <label><input type="radio" name="q3" value="media" /> Média</label
+          ><br />
+          <label><input type="radio" name="q3" value="baixa" /> Baixa</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>4. Como você imagina sua rotina diária?</p>
+          <label
+            ><input type="radio" name="q4" value="trabalho" /> Trabalho
+            intenso</label
+          ><br />
+          <label
+            ><input type="radio" name="q4" value="lazer" /> Lazer e
+            hobbies</label
+          ><br />
+          <label
+            ><input type="radio" name="q4" value="voluntariado" />
+            Voluntariado</label
+          ><br />
+          <label
+            ><input type="radio" name="q4" value="tranquilidade" />
+            Tranquilidade</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>5. Qual seu nível de envolvimento com tecnologia?</p>
+          <label><input type="radio" name="q5" value="alto" /> Alto</label
+          ><br />
+          <label><input type="radio" name="q5" value="medio" /> Médio</label
+          ><br />
+          <label><input type="radio" name="q5" value="baixo" /> Baixo</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>6. Qual seu foco em relação a aprendizado?</p>
+          <label
+            ><input type="radio" name="q6" value="continuo" /> Aprendizado
+            contínuo</label
+          ><br />
+          <label
+            ><input type="radio" name="q6" value="especializado" />
+            Especialização em uma área</label
+          ><br />
+          <label
+            ><input type="radio" name="q6" value="nenhum" /> Nenhum foco
+            específico</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>7. Qual seu nível de planejamento financeiro?</p>
+          <label><input type="radio" name="q7" value="alto" /> Alto</label
+          ><br />
+          <label><input type="radio" name="q7" value="medio" /> Médio</label
+          ><br />
+          <label><input type="radio" name="q7" value="baixo" /> Baixo</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>8. Qual seu nível de envolvimento social?</p>
+          <label><input type="radio" name="q8" value="alto" /> Alto</label
+          ><br />
+          <label><input type="radio" name="q8" value="medio" /> Médio</label
+          ><br />
+          <label><input type="radio" name="q8" value="baixo" /> Baixo</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>9. Qual seu foco em relação a saúde?</p>
+          <label
+            ><input type="radio" name="q9" value="preventiva" />
+            Prevenção</label
+          ><br />
+          <label
+            ><input type="radio" name="q9" value="tratamento" />
+            Tratamento</label
+          ><br />
+          <label
+            ><input type="radio" name="q9" value="nenhum" /> Nenhum foco
+            específico</label
+          ><br />
+        </div>
+        <div class="question">
+          <p>10. Qual seu nível de flexibilidade para mudanças?</p>
+          <label><input type="radio" name="q10" value="alto" /> Alto</label
+          ><br />
+          <label><input type="radio" name="q10" value="medio" /> Médio</label
+          ><br />
+          <label><input type="radio" name="q10" value="baixo" /> Baixo</label
+          ><br />
+        </div>
+        <button type="button" id="submit-quiz">Enviar Respostas</button>
+      </form>
+      <div id="quiz-result" style="display: none"></div>
+    </div>
+    <script src="quiz_futuro.js"></script>
+  </body>
+</html>
